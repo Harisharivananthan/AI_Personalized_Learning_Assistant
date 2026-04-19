@@ -5,7 +5,7 @@ from app.core.logger import logger
 def generate_response(prompt:str):
     try:
         logger.info("Sending request to ollama")
-        response = requests.POST(
+        response = requests.post(
             settings.OLLAMA_URL,
             json={
                 "model":settings.MODEL,
