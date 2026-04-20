@@ -90,6 +90,7 @@ streamlit run frontend/app.py
 ```
 
 ---
+```bash
 
 Project Structure
 /Personalized Learning Assistant
@@ -108,6 +109,7 @@ Project Structure
 │── requirements.txt
 │── README.md
 
+```
 ---
 
 🚀 Future Improvements
