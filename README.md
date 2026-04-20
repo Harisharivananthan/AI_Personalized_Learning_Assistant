@@ -91,7 +91,7 @@ streamlit run frontend/app.py
 
 ---
 
-##Project Structure
+## Project Structure
 
 ```bash
 /Personalized Learning Assistant
