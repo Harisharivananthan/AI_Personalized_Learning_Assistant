@@ -105,11 +105,12 @@ Project Structure
 │── README.md
 
 🚀 Future Improvements
-Add authentication system
-Improve retrieval with similarity scoring
-Add source citations in responses
-Enhance UI/UX
-Deploy to cloud
+
+- Add authentication system
+- Improve retrieval with similarity scoring
+- Add source citations in responses
+- Enhance UI/UX
+- Deploy to cloud
 
 
 👨‍💻 Author
