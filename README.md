@@ -87,6 +87,8 @@ uvicorn app.main:app --reload
 # Run frontend
 streamlit run frontend/app.py
 
+---
+
 Project Structure
 /Personalized Learning Assistant
 │── app/
@@ -104,6 +106,8 @@ Project Structure
 │── requirements.txt
 │── README.md
 
+---
+
 🚀 Future Improvements
 
 - Add authentication system
@@ -112,6 +116,7 @@ Project Structure
 - Enhance UI/UX
 - Deploy to cloud
 
+---
 
 👨‍💻 Author
 
