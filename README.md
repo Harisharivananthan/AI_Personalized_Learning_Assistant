@@ -35,7 +35,8 @@ This creates a hybrid AI system that is both context-aware and general-purpose.
 ---
 
 ## 🏗️ Architecture
-![alt text](<ChatGPT Image Apr 20, 2026, 06_50_35 PM.png>)
+
+![alt text](AI_Learning.png)
 
 
 ---
@@ -67,7 +68,7 @@ This creates a hybrid AI system that is both context-aware and general-purpose.
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/Harisharivananthan/gemma-edu-ai.git
+git clone https://github.com/Harisharivananthan/AI_Personalized_Learning_Assistant
 cd Personalized Learning Assistant
 
 python -m venv env
