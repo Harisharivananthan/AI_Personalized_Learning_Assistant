@@ -89,7 +89,7 @@ streamlit run frontend/app.py
 
 ---
 
-Project Structure
+## Project Structure
 /Personalized Learning Assistant
 │── app/
 │   ├── api/routes/
@@ -108,7 +108,7 @@ Project Structure
 
 ---
 
-🚀 Future Improvements
+##🚀 Future Improvements
 
 - Add authentication system
 - Improve retrieval with similarity scoring
