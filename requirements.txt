@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+python-dotenv
+
+sentence-transformers
+faiss-cpu
+
+pypdf
+
+sqlalchemy
+
+numpy
+tqdm
