@@ -87,9 +87,11 @@ uvicorn app.main:app --reload
 # Run frontend
 streamlit run frontend/app.py
 
+```bash
 ---
 
 ## Project Structure
+
 /Personalized Learning Assistant
 │── app/
 │   ├── api/routes/
