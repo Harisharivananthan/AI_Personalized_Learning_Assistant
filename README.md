@@ -18,7 +18,7 @@ The system enhances accuracy by:
 - Retrieving relevant information from uploaded PDFs (RAG)
 - Using LLM fallback when no context is available
 
-This creates a **hybrid AI system** that is both context-aware and general-purpose.
+This creates a hybrid AI system that is both context-aware and general-purpose.
 
 ---
 
@@ -36,7 +36,8 @@ This creates a **hybrid AI system** that is both context-aware and general-purpo
 
 ## 🏗️ Architecture
 
-![Architecture](AI_Learning.png)
+![alt text](AI_Learning.png)
+
 
 ---
 
@@ -56,7 +57,7 @@ This creates a **hybrid AI system** that is both context-aware and general-purpo
 
 - **Backend:** FastAPI  
 - **Frontend:** Streamlit  
-- **LLM:** Gemma (Ollama)  
+- **LLM:** Gemma:2b (Ollama)  
 - **Vector DB:** FAISS  
 - **Embeddings:** Sentence Transformers  
 - **Database:** SQLite  
@@ -68,14 +69,14 @@ This creates a **hybrid AI system** that is both context-aware and general-purpo
 
 ```bash
 git clone https://github.com/Harisharivananthan/AI_Personalized_Learning_Assistant
-cd AI_Personalized_Learning_Assistant
+cd Personalized Learning Assistant
 
 python -m venv env
 source env/Scripts/activate
 
 pip install -r requirements.txt
 
-## ▶️ Usage
+▶️ Usage
 
 # Run LLM
 ollama run gemma:2b
@@ -86,13 +87,12 @@ uvicorn app.main:app --reload
 # Run frontend
 streamlit run frontend/app.py
 
+```
 
+---
 
-
-
-##📁 Project Structure
-
-AI_Personalized_Learning_Assistant/
+Project Structure
+/Personalized Learning Assistant
 │── app/
 │   ├── api/routes/
 │   ├── agents/
@@ -107,3 +107,20 @@ AI_Personalized_Learning_Assistant/
 │── app.db
 │── requirements.txt
 │── README.md
+
+---
+
+🚀 Future Improvements
+
+- Add authentication system
+- Improve retrieval with similarity scoring
+- Add source citations in responses
+- Enhance UI/UX
+- Deploy to cloud
+
+---
+
+👨‍💻 Author
+
+Harish A
+🔗 https://github.com/Harisharivananthan
