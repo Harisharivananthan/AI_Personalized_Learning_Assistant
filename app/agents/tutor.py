@@ -2,23 +2,32 @@ from app.services.llm_service import generate_response
 from app.core.logger import logger
 
 
-def tutor_agent(query: str, context: str = ""):
+def tutor_agent(query: str, context: str = "", use_rag: bool = False):
     logger.info("Tutor agent activated")
 
-    # If no context found
-    if not context.strip():
-        logger.warning("No RAG context found, falling back to LLM only")
+    if use_rag:
+        logger.info("RAG mode")
 
-    prompt = f"""
+        prompt = f"""
 You are a helpful AI tutor.
 
-Instructions:
-- Explain clearly and simply
-- Use the provided context if available
-- If context is empty, answer from general knowledge
+Use the context below to answer accurately.
 
 Context:
 {context}
+
+Question:
+{query}
+
+Give a clear explanation.
+"""
+    else:
+        logger.info("LLM fallback mode")
+
+        prompt = f"""
+You are a helpful AI tutor.
+
+Answer the question clearly and simply using your own knowledge.
 
 Question:
 {query}
