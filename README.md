@@ -90,9 +90,10 @@ streamlit run frontend/app.py
 ```
 
 ---
-```bash
 
-Project Structure
+##Project Structure
+
+```bash
 /Personalized Learning Assistant
 │── app/
 │   ├── api/routes/
