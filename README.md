@@ -75,6 +75,8 @@ source env/Scripts/activate
 
 pip install -r requirements.txt
 
+▶️ Usage
+
 # Run LLM
 ollama run gemma:2b
 
